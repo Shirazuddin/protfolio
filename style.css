@@ -1,0 +1,125 @@
+.body{
+    display: flex;
+    padding-left: 50px;  
+}
+.signature1{
+    height: 25px;
+    width: 25px;
+    margin-top: 14px;
+
+}
+.logoipsum{
+    padding-right: 400px;
+    cursor: pointer;
+}
+.home{
+    padding-right: 20px;
+    cursor: pointer;
+}
+.protfolio{
+    padding-right: 20px;
+    cursor: pointer;
+}
+.about{
+    padding-right: 20px;
+    cursor: pointer;
+}
+.testimonials{
+    padding-right: 20px;
+    cursor: pointer;
+}
+.contact{
+    /* padding-left: 450px; */
+    margin-left: 20px;
+    text-align: justify;
+    height: 40px;
+    width:85px;
+    margin-left: 460px;
+    background-color:white;
+    color: rgba(0, 0, 255, 0.721);
+    border-color: rgba(0, 0, 255, 0.721);
+    cursor: pointer;
+}
+.second{
+    background: var(--BG-Shade, #F5FCFF);
+    margin-left: 50px;
+    padding-top: 50px;
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+}
+.right{
+    margin-right: 200px;
+    padding-top: 20px;
+}
+    /* border: 1px solid blue; */
+.third{
+    border: 1px solid red;
+    padding-left: 50px;
+    /* display: flex; */
+}
+.skills{
+    width: 1024px;
+}
+.skills2{
+    display: flex;
+    justify-content: space-between;
+}
+.middlepart1{
+    width: 20%;
+    border-radius: 10px;
+    border: 1px solid red;
+    background-color: var(--BG-Shade, #F5FCFF);
+}
+.middlepart2{
+    border: 1px solid red;
+    width: 20%;
+    border-radius: 10px;
+    background-color: var(--BG-Shade, #F5FCFF);
+}
+.middlepart3{
+    border: 1px solid red;
+    width: 20%;
+    border-radius: 10px;
+    background-color: var(--BG-Shade, #F5FCFF);
+}
+.middlepart4{
+    border: 1px solid red;
+    width: 20%;
+    border-radius: 10px;
+    background-color: var(--BG-Shade, #F5FCFF);
+}
+.aboutme2{
+    border: 1px solid red;
+}
+.recentproject{
+    border: 1px solid red;
+}
+.client{
+    border: 1px solid red;
+}
+.contactme{
+    border: 1px solid red;
+
+}
+.text{
+    color: red;
+}
+.button{
+    width: 42px;
+    height: 18px;
+    border-radius: 5.333px;
+    background: var(--Primary, #5E3BEE);
+    padding: 18.667px 42.667px;
+    color: var(--White, #FFF);
+    /* Body 02 */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.btn-div{
+    margin-top: 57px;
+}
