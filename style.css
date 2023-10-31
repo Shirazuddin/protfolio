@@ -107,7 +107,6 @@ margin-left: 150px;
     color: blue;
 }
 .recentproject{
-    padding: 50px;
     margin-left: 50px;
     display: flex;
     justify-content: space-between;
@@ -131,17 +130,21 @@ margin-left: 150px;
 .text3{
     color: #5E3BEE;
 }
-.fourth{
+/* .fourth{
 display: flex;
-justify-content: space-between;
+justify-content: space-between; */
 
+
+.image3{
+    justify-content: space-between;
+    display: flex;
+    padding-left: 50px;
 }
 .client{
     border: 1px solid red;
 }
 .contactme{
     border: 1px solid red;
-
 }
 .text{
     color: red;
@@ -161,4 +164,22 @@ justify-content: space-between;
 }
 .btn-div{
     margin-top: 57px;
+}
+
+.card1{
+    margin-left: 50px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+.vector{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+}
+.desc{
+    width: 300px;
 }
