@@ -156,7 +156,6 @@ justify-content: space-between; */
     background: var(--Primary, #5E3BEE);
     padding: 18.667px 42.667px;
     color: var(--White, #FFF);
-    /* Body 02 */
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -182,4 +181,42 @@ justify-content: space-between; */
 }
 .desc{
     width: 300px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   text-align: center;
+   font-weight: 600;
+   line-height: 40px;
+}
+.fname{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.lname{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.flname{
+display: flex;
+gap: 200px;
+}
+.topic{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.terms{
+    display: flex;
+}
+.button3{  
+    height: 30px;
+    width: 170px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05); 
+    color: white;
+    padding: 40px;
+    margin-left: 190px;
 }
