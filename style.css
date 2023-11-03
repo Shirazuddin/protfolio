@@ -5,7 +5,7 @@
 .signature1{
     height: 25px;
     width: 25px;
-    margin-top: 14px;
+    margin-top: 13.5px;
 
 }
 .logoipsum{
@@ -48,16 +48,14 @@
     height: 300px;
     justify-content: space-between;
     align-items: center;
-    /* text-align: center; */
 }
 .right{
     margin-right: 200px;
     padding-top: 20px;
 }
-    /* border: 1px solid blue; */
 .third{
     padding-left: 50px;
-    /* display: flex; */
+    padding-top: 50px;
 }
 .skills{
     width: 1024px;
@@ -111,6 +109,7 @@ margin-left: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 50px;
 }
 .recentproject3{
     width: 300px;
@@ -126,15 +125,11 @@ margin-left: 150px;
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
     align-items: center;
     color: white;
+    margin-right: 100px;
 }
 .text3{
     color: #5E3BEE;
 }
-/* .fourth{
-display: flex;
-justify-content: space-between; */
-
-
 .image3{
     justify-content: space-between;
     display: flex;
@@ -189,6 +184,11 @@ justify-content: space-between; */
    text-align: center;
    font-weight: 600;
    line-height: 40px;
+   padding-top: 20px;
+}
+.con{
+    text-decoration: underline;
+    color: rgb(128, 0, 255);
 }
 .fname{
     display: flex;
@@ -213,10 +213,41 @@ gap: 200px;
     display: flex;
 }
 .button3{  
-    height: 30px;
+    height: 40px;
     width: 170px;
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05); 
     color: white;
     padding: 40px;
     margin-left: 190px;
+    cursor: pointer;
 }
+.fblogo{
+    padding-top: 9.5px;
+}
+.instagram{
+    padding-top: 8px;
+}
+.logodesign{
+display: flex;
+flex-direction: row;
+padding-left: 350px;
+gap: 10px;
+}
+.divider{
+    border: 1px solid red;  
+    margin: 15px;
+    padding: 1px; 
+    background-color:black;
+}
+ .bottom{
+    display: flex;
+    margin-left: 60px;
+    padding-top: 15px;
+ }
+ .bottom2{
+    display: flex;
+    padding-left: 800px;
+    justify-content: space-between;
+    gap:20px;
+    padding-bottom: 14px;
+ }
